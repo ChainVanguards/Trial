@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTTC Counter DApp</title>
+    <style>
+        body {
+            position: relative;
+            overflow: hidden;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .square {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>BTTC Counter DApp</h1>
+    <p>Count: <span id="count">0</span></p>
+    <button onclick="increment()">Increment</button>
+    <button onclick="decrement()">Decrement</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
